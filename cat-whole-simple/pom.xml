@@ -22,7 +22,7 @@
 		<aspectjweaver.version>1.8.12</aspectjweaver.version>
 		<jackson.version>2.8.8</jackson.version>
 		<zkclient.version>0.10</zkclient.version>
-		<cat-core.version>2.0.0</cat-core.version>
+		<cat-client.version>2.0.0</cat-client.version>
 		<fastjson.version>1.2.46</fastjson.version>
 		<mysql-connector.version>5.1.42</mysql-connector.version>
 		<mybatis.version>3.4.6</mybatis.version>
@@ -97,8 +97,8 @@
 			</dependency>
 			<dependency>
 				<groupId>com.dianping.cat</groupId>
-				<artifactId>cat-core</artifactId>
-				<version>${cat-core.version}</version>
+				<artifactId>cat-client</artifactId>
+				<version>${cat-client.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.alibaba</groupId>

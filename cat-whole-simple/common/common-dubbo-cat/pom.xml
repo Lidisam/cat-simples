@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-core</artifactId>
+            <artifactId>cat-client</artifactId>
             <scope>provided</scope>
         </dependency>
         <dependency>
