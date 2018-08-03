@@ -13,8 +13,6 @@
 
     <dubbo:protocol name="dubbo" port="${article.dubbo.protocol.port}"/>
 
-    <dubbo:provider timeout="3000" filter="catTransaction"/>
-
     <dubbo:service interface="org.fanlychie.facade.ArticleFacade" ref="articleService"/>
 
 </beans>

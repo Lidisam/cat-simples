@@ -56,14 +56,6 @@
             <groupId>com.mchange</groupId>
             <artifactId>c3p0</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>net.dubboclub</groupId>
-            <artifactId>cat-monitor</artifactId>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
