@@ -13,7 +13,7 @@
 
     <dubbo:protocol name="dubbo" port="${user.dubbo.protocol.port}"/>
 
-    <dubbo:provider filter="catTransaction"/>
+    <dubbo:provider timeout="3000" filter="catTransaction"/>
 
     <dubbo:service interface="org.fanlychie.facade.UserFacade" ref="userService"/>
 
